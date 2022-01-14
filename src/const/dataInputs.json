@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "type": "text",
+    "component": "text"
+  },
+  {
+    "id": "2",
+    "type": "select",
+    "component": "select"
+  },
+  {
+    "id": "3",
+    "type": "radio",
+    "component": "radio"
+  }
+]
