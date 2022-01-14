@@ -26,7 +26,7 @@ ul {
 .main-page aside {
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  width: 50%;
 }
 .list-inputs {
   display: flex;
@@ -104,6 +104,6 @@ select {
     flex-direction: column;
   }
   .main-page aside{
-    max-width: fit-content;
+    width: fit-content;
   }
 }
