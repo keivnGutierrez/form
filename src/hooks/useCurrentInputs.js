@@ -35,12 +35,11 @@ export const useCurrentInputs = () => {
     setList((preList) => preList.filter((input) => input?.id !== id))
   }
 
-  function generateID() {
-    const newID = list.length
+  function generateID(intent = 0) {
+    const newID = list?.length + intent
     const exitsID = list.find(({ id }) => id == newID)
-
     if (exitsID) {
-      return generateID()
+      return generateID(intent++)
     }
     return newID
   }
